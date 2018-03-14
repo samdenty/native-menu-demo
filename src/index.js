@@ -31,7 +31,7 @@ class Test extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <h1>React Native browser context menus</h1>
+        <h1>native-menu</h1>
         <h2>
           Easily add items to the browsers context menu, without breaking
           existing functionality
