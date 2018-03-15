@@ -4,19 +4,19 @@ import NativeMenu from 'native-menu'
 
 const myItems = [
   {
-    action: 'My action',
-    shortcut: 'Win+A',
+    primary: 'My action',
+    secondary: 'Win+A',
     onClick: () => {
       alert('My action')
     }
   },
   {
-    action: 'My disabled action',
-    shortcut: 'Win+D',
+    primary: 'My disabled action',
+    secondary: 'Win+D',
     disabled: true
   },
   {
-    action: (
+    primary: (
       <React.Fragment>
         <b>Bold</b> text
       </React.Fragment>
