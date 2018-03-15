@@ -44,9 +44,9 @@ class Test extends React.Component {
           </div>
         </NativeMenu>
 
-        <NativeMenu theme="chrome-dark" items={myItems}>
+        <NativeMenu theme="native-dark" items={myItems}>
           <div className="example odd">
-            <h1>Theme: chrome-dark</h1>
+            <h1>Theme: native-dark</h1>
             <a href="">Example link</a> <button>Example button</button>{' '}
             <img src="https://via.placeholder.com/900x36" />
           </div>
